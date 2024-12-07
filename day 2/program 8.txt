@@ -1,0 +1,16 @@
+//write a c program to check whether read the input for num an integer & print the numbers from 1 to num?? 
+#include <stdio.h>
+
+int main() 
+{
+    int num;
+    int sum=0;
+    printf("Enter the value of num :");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+    {
+        sum=sum+i;//LHS(Variable)=RHS(Value)
+    }
+    printf("%d is Summation of 1 to %d \n",sum,num);
+    return 0;
+}
